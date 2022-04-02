@@ -75,10 +75,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight); 
   
   //Music
-  mainScore.setVolume(0.09); 
-  eatSound.setVolume (0.1); 
-  throbSound.setVolume(0.8);
+  mainScore.setVolume(0.06); 
+  eatSound.setVolume (0.001); 
+  throbSound.setVolume(1);
   breathSound.setVolume(0.7);
+  enemySound.setVolume(1); 
   
   mainScore.play();
     mainScore.loop();
