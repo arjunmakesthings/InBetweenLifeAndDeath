@@ -75,8 +75,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight); 
   
   //Music
-  mainScore.setVolume(0.01); 
-  eatSound.setVolume (0.3); 
+  mainScore.setVolume(0.09); 
+  eatSound.setVolume (0.1); 
   throbSound.setVolume(0.8);
   breathSound.setVolume(0.7);
   
