@@ -11,9 +11,6 @@ let prompt;
 let promptOp = 0;
 
 function ui(){
-  
-  print (stage, dial, time, fadingOut); 
-  
     time = int(frames/60);
   textFont (captions);
   textSize (24);  
