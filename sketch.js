@@ -258,8 +258,6 @@ function beginGamePrompt(){
   text (startPrompt, width/2, 140); 
   
   startBlink(); 
-  
-  print (introPromptOp);
 }
 
 let Intinc = true;
