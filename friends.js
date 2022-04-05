@@ -93,6 +93,7 @@ var d = dist(this.x, this.y, heroX, heroY);
       this.y = this.y + heroR; 
       this.colliding = true; 
        friendNumber=friendNumber+1; 
+      this.col = ('#9ADBB3');
     }else {
      this.move();  
     }
