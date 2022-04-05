@@ -146,7 +146,7 @@ function draw() {
 }
 
 function heroObject(){
-  fill(200);
+  fill(220);
   noStroke(); 
   
   //print (heroR); 
