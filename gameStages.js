@@ -263,7 +263,7 @@ let newLover = new Lover (random(100, width-100), random (100, height-100), hero
       }
       
       amountOfFood = 20; 
-      if (friendNumber==4){
+      if (friendNumber==6){
        stage=13; 
       }
   } //Friends come
