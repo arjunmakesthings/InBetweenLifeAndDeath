@@ -11,6 +11,7 @@ let prompt;
 let promptOp = 0;
 
 function ui(){
+  
     time = int(frames/60);
   textFont (captions);
   textSize (24);  
@@ -278,6 +279,12 @@ function prompts(){
   fill (150, promptOp); 
   
   textAlign (CENTER); 
+  
+  if (stage<1){
+   prompt = "PRESS 'S' TO SKIP INTRODUCTION IF YOU'VE GONE THROUGH IT BEFORE." 
+    fill (100, 255);
+    text (prompt, width/2, 50); 
+  }
   
   if (dial==1&stage==0){
     prompt = 'CLICK TO WAKE UP'; 
