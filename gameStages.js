@@ -1,5 +1,8 @@
 function stageChange(){
-
+  if (stage<4){
+  skipIntro(); 
+  }
+  
    if (stage>0){
   heroX = lerp(heroX, mouseX, 0.07);
   heroY = lerp(heroY, mouseY, 0.07);
@@ -383,6 +386,11 @@ function death(){
        textFont (statFont);
      textSize (24); 
     text ('You died because you could not maintain the necessary state for survival.', width/2, height/2);
+
+      textFont (promptFont); 
+       textSize (14); 
+       fill (190, 255); 
+       text ('PLEASE RELOAD THE WEBPAGE TO BEGIN AGAIN.', width/2, height/2+36);
      noLoop(); 
    }
 }
@@ -396,6 +404,11 @@ function killed(){
      textSize (24); 
   textFont (statFont);
     text ('You were killed by a hostile particle.', width/2, height/2);
+  
+       textFont (promptFont); 
+       textSize (14); 
+       fill (190, 255); 
+       text ('PLEASE RELOAD THE WEBPAGE TO BEGIN AGAIN.', width/2, height/2+36);
      noLoop(); 
 }
 
@@ -436,3 +449,4 @@ function heroTrail(){
     }
   }  
 }
+
