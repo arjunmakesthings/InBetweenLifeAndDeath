@@ -22,6 +22,7 @@ push();
       foodEaten = foodEaten+1; 
       if (stage>2){
       eatSound.play();
+        eatSound.setVolume (0.3);
       }
       return true; 
       
