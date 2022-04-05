@@ -3,7 +3,7 @@ class Friend {
     this.x = x;
     this.y = y;
     this.r = r;
-    this.col = 100;
+    this.col = 150;
     this.time = 0;
     this.timeStore = [];
     this.timeTaken = 0;
