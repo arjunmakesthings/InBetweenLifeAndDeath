@@ -6,6 +6,7 @@ var enemySound;
 var breathSound;
 
 let gameEnded = false; 
+let skipIntroToggle = false;
 
 let introOp=0;
 let capOp = 0; 
@@ -75,7 +76,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight); 
   
   //Music
-  mainScore.setVolume(0.06); 
+  mainScore.setVolume(0.08); 
   eatSound.setVolume (0.001); 
   throbSound.setVolume(1);
   breathSound.setVolume(0.7);
@@ -279,3 +280,4 @@ function startBlink(){
     Intinc = true; 
   } 
 }
+
