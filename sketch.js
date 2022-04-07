@@ -218,7 +218,7 @@ noStroke();
   
   appear();
   push(); 
-  translate (width/2.40, height/3.5); 
+  translate (width/2.40, height/4.0); 
   textFont (captions);
   textAlign (LEFT, TOP);
   text (statements [0], 27, 0.05); 
