@@ -217,7 +217,7 @@ let newLover = new Lover (random(100, width-100), random (100, height-100), hero
     }
   }
     
-    if (enemies.length==18){
+    if (enemies.length==22){
      stage =11; 
     }
     
@@ -302,7 +302,7 @@ let newLover = new Lover (random(100, width-100), random (100, height-100), hero
       enemySound.play();
   } //Enemies create
     
-    if (enemies.length>=38){
+    if (enemies.length>=48){
      stage=14; 
     }
     
