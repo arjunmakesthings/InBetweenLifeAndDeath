@@ -165,7 +165,7 @@ let newLover = new Lover (random(100, width-100), random (100, height-100), hero
   lover[i].detectMouse(); 
   lover[i].colourChange(); 
   lover[i].checkSpeed();
-      if (dial>=17){
+      if (dial>=18){
   lover[i].collission(); 
       }
   lover[i].repelOrAccept();
