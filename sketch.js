@@ -281,3 +281,7 @@ function startBlink(){
   } 
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
