@@ -2,7 +2,9 @@
 Hi! Welcome to this repository. _In Between Life and Death_ is a game programmed using p5.js for PSYCHE: a virtual exhibition that explores the mind hosted by the Science Gallery Bengaluru from April - May 2022. If you've played the game and have some feedback/want to improve the existing game/make something completely new altogether, feel free to fork this sketch and do so. If you'd like to chat instead, shoot me an email on @arjun.xperimenter@bengaluru.sciencegallery.com
 
 ## The thinking behind the game
-The concept of the game was to take a popular theory of human motivation: _A Theory of Human Motivation_ by A.H Maslow and convert the "hierarchy of human needs" into systems of logic, which were then further applied to a digital object controlled by you, the player. Essentially, you live your life out as a digital object motivated by different needs in order to reach the grand ending. But is one supposed to be there at all?
+The concept of the game was to take a popular theory of human motivation: _A Theory of Human Motivation_ by A.H Maslow and convert the "hierarchy of human needs" into systems of logic, which were then further applied to a digital object controlled by you, the player. Essentially, you live out your life as a particle motivated by different needs in order to reach the grand ending. But is there one at all?
+
+These questions along with other sessions using the game as a tangible tool formed the majority of my public engagement work done during PSYCHE 2022.
 
 If you're interested in seeing how this project took shape over the course of 3 months, you can check out this blog: https://arjunsnotion.notion.site/Arjun-s-Thesis-4a732af0f22542128c1d80a64147557a
 
